@@ -1,0 +1,20 @@
+{
+	"name": "Qiita",
+	"version": "0.1.0",
+	"manifest_version": 2,
+
+	"description": "",
+
+	"content_scripts": [{
+		"matches": [
+			"*://qiita.com/*"
+		],
+		"js": [
+			"js/code_lang_to_show.js",
+			"js/drafts_link_to_https.js"
+		],
+		"css": [
+			"css/code_background_color_deepen.css"
+		]
+	}]
+}

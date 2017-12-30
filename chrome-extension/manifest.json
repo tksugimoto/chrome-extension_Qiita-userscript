@@ -12,8 +12,7 @@
 		"js": [
 			"js/code_lang_to_show.js",
 			"js/disable_auto_complete.js",
-			"js/display_post_date.js",
-			"js/drafts_link_to_https.js"
+			"js/display_post_date.js"
 		],
 		"css": [
 			"css/code_background_color_deepen.css"

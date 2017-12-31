@@ -1,5 +1,5 @@
 // 更新済みの記事も初回投稿日時を表示
-Array.from(document.querySelectorAll('.ArticleAsideHeader__date')).filter(elem => {
+Array.from(document.querySelectorAll('.it-Header_time')).filter(elem => {
 	// 更新あり
 	return elem.querySelector('time[itemprop="dateModified"]');
 }).forEach(elem => {

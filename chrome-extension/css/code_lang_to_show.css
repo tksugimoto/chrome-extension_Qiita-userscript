@@ -1,0 +1,11 @@
+.code-frame[data-lang]:before {
+	content: attr(data-lang);
+
+	/* Qiita公式のラベルのCSS */	
+	color: #eee;
+	display: inline-block;
+	background-color: #777;
+	padding: 2px 4px;
+	transform: translateY(-1em);
+	word-break: break-all;
+}

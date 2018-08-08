@@ -15,6 +15,7 @@
 			"js/display_post_date.js"
 		],
 		"css": [
+			"css/code_lang_to_show.css",
 			"css/code_background_color_deepen.css"
 		]
 	}]
